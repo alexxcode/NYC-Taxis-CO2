@@ -49,4 +49,4 @@ Why: Allows creating interactive data visualizations and dashboards to communica
 
 How: We use Looker Studio to present our data analysis results in clear and visually appealing dashboards. This can be helpful for summarizing insights, tracking key metrics, and sharing findings with non-technical audiences.
 
-[Note!]: This is a potential roadmap, and the specific tools and their usage might vary depending on our specific project requirements and data characteristics. We consider evaluating and adjusting based on our actual needs and experiment with different combinations to find the optimal workflow for our data science tasks.
+[!NOTE]: This is a potential roadmap, and the specific tools and their usage might vary depending on our specific project requirements and data characteristics. We consider evaluating and adjusting based on our actual needs and experiment with different combinations to find the optimal workflow for our data science tasks.
