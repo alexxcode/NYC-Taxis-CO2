@@ -1,0 +1,65 @@
+Fuel Type Code: Indicates the type of fuel used by vehicle charging stations.
+
+CNG: Compressed Natural Gas.
+E85: A blend of ethanol with 85% ethanol and 15% gasoline.
+BD: Biodiesel, a renewable diesel fuel derived from biological sources.
+ELEC: Electricity.
+LPG: Liquefied Petroleum Gas.
+Station Name: Name of the station.
+
+Street Address: Represents the physical addresses of vehicle charging stations.
+
+Intersection Directions: Provides detailed instructions on how to reach each charging station from specific locations or via specific routes.
+
+City: City.
+
+State: State.
+
+ZIP: ZIP code.
+
+Plus4: ??
+
+Station Phone: Phone number.
+
+Status Code: Indicates the current status of each charging station.
+
+"E": This code likely indicates that the station is operational or in an "enabled" state.
+"T": This code might indicate that the station is temporarily out of service or undergoing maintenance ("temporarily unavailable").
+Groups With Access Code: Indicates which groups or types of users have access to each charging station and how they can access it.
+
+Private: Indicates that the charging station is privately accessible, possibly reserved for a specific group or with access restrictions.
+Public: Card key at all times: Indicates that the station is public, but access is controlled through a key card at all times.
+Private: Government only: Indicates that the station is private and available only to the government.
+Public: Credit card at all times: Indicates that the station is public and available to any user who can pay with a credit card at all times.
+TEMPORARILY UNAVAILABLE (Public): Indicates that the station is temporarily out of service for the public.
+Access Days Time: Indicates the days and hours during which the charging station is available for use.
+
+Cards Accepted: Indicates which cards or payment methods are accepted at each charging station.
+
+BD Blends: Indicates the specific types of fuels or blends accepted at each charging station.
+
+NG Fill Type Code: Indicates the fill type code for natural gas (NG) charging stations.
+
+NG PSI: Indicates the natural gas (NG) filling pressure in pounds per square inch (PSI) for charging stations.
+
+Latitude: Latitude.
+
+Longitude: Longitude.
+
+Open Date: Opening date.
+
+NG Vehicle Class: Appears to contain information about the vehicle class compatible with the natural gas (NG) charging station.
+
+MD (Medium Duty)
+LD (Light Duty)
+HD (Heavy Duty)
+E85 Blender Pump: Indicates whether the charging station is an E85 blender pump. E85 is a blend of 85% ethanol and 15% gasoline.
+
+EV Connector Types: Indicates the types of connectors available at electric vehicle (EV) charging stations.
+
+"HD," "MD," and "LD" seem to indicate high, medium, and low-power connectors, respectively.
+"CHADEMO" and "J1772" are two common connector types used for charging electric vehicles.
+"J1772COMBO" is another connector type that combines the J1772 standard with fast charging capability.
+CNG Total Compression Capacity: Provides information about the total compression capacity of compressed natural gas (CNG) at each charging station.
+
+CNG Storage Capacity: Indicates the storage capacity of compressed natural gas (CNG) at each charging station.

@@ -1,0 +1,53 @@
+Year: Year of production.
+
+Manufacturer: vehicle manufacturer.
+
+highwayCD: It seems to be related to highway fuel economy for different types of vehicles.
+
+phevBlended: It seems to contain boolean values, where "FALSE" indicates that the vehicle is 
+not a Plug-in Hybrid Electric Vehicle (PHEV) with combined propulsion, and "TRUE" could indicate 
+that it is.
+
+trany: It appears to contain information about the type of transmission of vehicles.
+
+UCity: It seems to contain numerical values that could represent city fuel efficiency for 
+different vehicles.
+
+UHighway: It seems to contain numerical values that could represent highway fuel efficiency for 
+different vehicles.
+
+youSaveSpend:It seems to contain numerical values that possibly represent the savings or expenditure 
+associated with the fuel efficiency of a vehicle compared to an average vehicle.
+
+trans_dscr: It appears to contain descriptions related to the type or mode of transmission of the 
+vehicles.
+
+tCharger: It appears to contain categorical values indicating the presence of a turbocharger in 
+the vehicles.
+
+sCharger: It appears to contain categorical values indicating the presence of a supercharger in 
+the vehicles.
+
+atvType: It appears to contain information about the type of propulsion system or technology used in vehicles.
+
+    - Hybrid: Indicates that the vehicle is a hybrid.
+    
+    - Diesel: Indicates that the vehicle uses a diesel engine.
+    
+    - EV: Indicates that the vehicle is electric.
+    
+    - FFV: Possibly indicates that the vehicle is a Flexible Fuel Vehicle, capable of running on 
+    alternative fuels such as ethanol.
+    
+    - Bifuel (CNG): Indicates that the vehicle has the capability to use two types of fuel, with 
+    one of them being compressed natural gas (CNG).
+    
+    - CNG: Indicates that the vehicle runs on compressed natural gas.
+    
+    - Bifuel (LPG): Indicates that the vehicle has the capability to use two types of fuel, with 
+    one of them being liquefied petroleum gas (LPG).
+
+fuelType2: It seems to contain additional information about the type of secondary fuel or propulsion 
+technology used in vehicles.
+
+"createdOn" seems to contain creation dates associated with the records of vehicles in the dataset.
