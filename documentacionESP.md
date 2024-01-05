@@ -27,7 +27,7 @@ Este equipo llevará a cabo las siguientes funciones: data engineering (ingenier
 
 ## Alcance
 
-### Delimitaciones de Datos
+### Alcande a nivel de Datos
 - **Enfoque en Taxis Amarillos y FHV:** Nuestra principal área de interés recae en los taxis amarillos y los vehículos de alquiler de gran volumen (FHV). Estos dos tipos de servicios de transporte representan una parte significativa del tráfico en la ciudad y cuentan con una abundante cantidad de datos disponibles. Esta elección se basa en su capacidad para proporcionar información detallada sobre los viajes y su impacto ambiental.
 
 - **Exclusión de Taxis Verdes y Otros Servicios:** Hemos decidido excluir los taxis verdes y otros servicios de transporte de nuestro análisis principal. Esta decisión se justifica por varias razones importantes:
