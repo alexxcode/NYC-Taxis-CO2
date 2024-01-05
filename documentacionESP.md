@@ -57,7 +57,7 @@ En resumen, hemos tomado estas decisiones de delimitación de datos con el objet
 - **Infraestructura de Carga Actual:** Las recomendaciones sobre vehículos eléctricos considerarán la infraestructura de carga existente, para proporcionar sugerencias prácticas y aplicables en el contexto actual.
 
 
-## ¿Qué Buscamos Resolver con Este Proyecto?
+## ¿Qué Buscamos Resolver con Este Proyecto? (objetivos)
 1. **Impacto Ambiental del Transporte de Pasajeros**: Analizar el movimiento de taxis y servicios de viajes compartidos en la ciudad de Nueva York para evaluar su impacto ambiental, centrándonos en la relación con la calidad del aire, la contaminación sonora y las emisiones de CO2.
 2. **Eficiencia Económica de la Empresa de Transporte**: Evaluar el rendimiento económico de la empresa de transporte de pasajeros mediante métricas como duración de viajes, % de tarifas y costos operativos, identificando oportunidades para optimizar la eficiencia y reducir costos.
 3. **Viabilidad de Vehículos Eléctricos en la Flota**: Determinar la viabilidad de incorporar vehículos eléctricos en la flota de la empresa, considerando los resultados del análisis ambiental y económico. Proporcionar recomendaciones basadas en datos para apoyar la toma de decisiones informada.
