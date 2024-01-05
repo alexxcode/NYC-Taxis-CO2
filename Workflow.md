@@ -1,0 +1,92 @@
+Certainly, here is the workflow with space to indicate responsibilities in English:
+
+# Workflow
+
+## Week 1: Project Kickoff and Data Work
+
+- **Day 1-4: Understanding the Current Situation**
+  - Detailed analysis of the problem.
+  - Review of available data and its relevance.
+  - Responsible: [Responsible Name]
+
+- **Day 3-4: Definition of Objectives and Scope**
+  - Establish clear and measurable objectives.
+  - Define the project's scope.
+  - Responsible: [Responsible Name]
+
+- **Day 1-4: Development of KPIs**
+  - Identification and definition of key performance indicators (KPIs).
+  - Responsible: [Responsible Name]
+
+- **Day 5: Creation of Github Repository**
+  - Initialization of the repository.
+  - Establishment of commit and merge rules.
+  - Responsible: [Responsible Name]
+
+- **Day 1-5: Proposed Solution**
+  - Task planning and role distribution.
+  - Selection of methodologies and tools.
+  - Responsible: [Responsible Name]
+
+- **Day 1-5: Project Scope Documentation**
+  - Detailed documentation of the previous steps.
+  - Exploratory Data Analysis (EDA) and preliminary data quality analysis.
+  - Responsible: [Responsible Name]
+
+## Week 2: Data Engineering
+
+- **Day 1: Complete ETL**
+  - Development and testing of the ETL process.
+  - Responsible: [Responsible Name]
+
+- **Day 1-2: Implemented Data Structures (DW, DL, etc.)**
+  - Design and implementation of data structures.
+  - Responsible: [Responsible Name]
+
+- **Day 2-3: Automated ETL Pipeline**
+  - Automation of the data flow.
+  - Responsible: [Responsible Name]
+
+- **Day 1-2: ER Model Design**
+  - Creation of a detailed entity-relationship (ER) model.
+  - Responsible: [Responsible Name]
+
+- **Day 2-3: Sample Data Analysis**
+  - Comprehensive analysis of a representative data sample.
+  - Responsible: [Responsible Name]
+
+- **Day 3-4: MVP/Proof of Concept of Dashboard/ML Product**
+  - Development of a functional prototype.
+  - Responsible: [Responsible Name]
+
+- **Day 4-5: Documentation and Reporting**
+  - Updating documentation with progress.
+  - Responsible: [Responsible Name]
+
+## Week 3: Data Analytics + ML
+
+- **Day 1-2: Final Dashboard and ML Products**
+  - Finalization and adjustments to the dashboard.
+  - Implementation of machine learning models.
+  - Responsible: [Responsible Name]
+
+- **Day 1-2: Design of Reports/Dashboards**
+  - Preparation of final reports and dashboards.
+  - Responsible: [Responsible Name]
+
+- **Day 1-4: Model Selection, Feature Engineering**
+  - Optimization and validation of machine learning models.
+  - Responsible: [Responsible Name]
+
+- **Day 4: Analysis Report**
+  - Detailed analysis of results and conclusions.
+  - Responsible: [Responsible Name]
+
+- **Day 5: Project Video Preparation**
+  - Creation of a project summary video.
+  - Responsible: [Responsible Name]
+
+## Ongoing Documentation
+
+- Maintain up-to-date documentation at each stage of the project.
+- Responsible: [Responsible Name]
