@@ -19,16 +19,16 @@ En el contexto del cambio climático acelerado y la necesidad creciente de energ
 ## 3. Reconociendo las Necesidades del Cliente
 Nuestro cliente enfrenta desafíos únicos en términos de impacto ambiental y eficiencia económica. Su necesidad primordial es evaluar y mejorar la relación entre los servicios de transporte y factores como la calidad del aire y la contaminación sonora. La empresa busca también optimizar sus operaciones y evaluar la viabilidad de incorporar vehículos eléctricos en su flota, alineando sus operaciones con objetivos de sostenibilidad.
 
-## 4. Objetivo principal
-Nuestro objetivo principal es evaluar el movimiento de los taxis y servicios de viajes compartidos en la ciudad de Nueva York para proporcionar a la empresa de transporte de pasajeros información clave sobre la relación entre estos medios de transporte y la calidad del aire, contaminación sonora, y otros factores relevantes, incluyendo alternativas más rentables a largo plazo. Esto permitirá a la empresa tomar decisiones más acordes con sus objetivos.
-
-## 5. Requerimientos del Proyecto
+## 4. Requerimientos del Proyecto
 Para lograr los objetivos establecidos, necesitamos:
 - Un entendimiento profundo de la industria y los desafíos específicos del cliente.
 - Acceso y análisis exhaustivo de datos relevantes.
 - Alineación de expectativas, objetivos clave e indicadores de éxito con las necesidades del cliente.
 - Adaptación a las condiciones y restricciones del entorno operativo del cliente.
 - Comunicación clara y efectiva con el cliente a lo largo del proyecto.
+
+## 5. Objetivo principal
+Nuestro objetivo principal es evaluar el movimiento de los taxis y servicios de viajes compartidos en la ciudad de Nueva York para proporcionar a la empresa de transporte de pasajeros información clave sobre la relación entre estos medios de transporte y la calidad del aire, contaminación sonora, y otros factores relevantes, incluyendo alternativas más rentables a largo plazo. Esto permitirá a la empresa tomar decisiones más acordes con sus objetivos.
 
 ## 6. Alcance
 
