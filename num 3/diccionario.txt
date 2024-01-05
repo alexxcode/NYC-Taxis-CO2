@@ -1,0 +1,91 @@
+Fuel Type Code:  indica el tipo de combustible utilizado por las estaciones de carga de vehículos.
+    CNG: Gas natural comprimido.
+    E85: Una mezcla de etanol con un 85% de etanol y un 15% de gasolina.
+    BD: Biodiesel, un combustible diesel renovable derivado de fuentes biológicas.
+    ELEC: Electricidad.
+    LPG: Gas licuado de petróleo.
+
+Station Name: Nombre de la estación
+
+Street Address: representa las direcciones físicas de las estaciones de carga de vehículos.
+
+Intersection Directions: proporciona instrucciones detalladas sobre cómo llegar a cada estación 
+de carga desde ubicaciones específicas o mediante rutas específicas.
+
+City: ciudad
+
+State: estado
+
+ZIP: codigo postal
+
+Plus4: ??
+
+Station Phone: número de telefono
+
+Status Code: indica el estado actual de cada estación de carga.
+    "E": Este código probablemente indica que la estación está en funcionamiento o en estado 
+        "activo" (en inglés, "enabled").
+
+    "T": Este código podría indicar que la estación está temporalmente fuera de servicio o en 
+        mantenimiento (en inglés, "temporarily unavailable"). 
+
+Groups With Access Code:  indica qué grupos o tipos de usuarios tienen acceso a cada estación de 
+carga y cómo pueden acceder.
+    Private: Indica que la estación de carga es de acceso privado, posiblemente reservada para un 
+    grupo específico o con restricciones de acceso.
+
+    Public: Card key at all times: Indica que la estación es pública, pero el acceso se controla 
+    mediante una tarjeta clave en todo momento.
+
+    Private: Government only: Indica que la estación es privada y solo está disponible para el 
+    gobierno.
+
+    Public: Credit card at all times: Indica que la estación es pública y está disponible para 
+    cualquier usuario que pueda pagar con una tarjeta de crédito en todo momento.
+
+    TEMPORARILY UNAVAILABLE (Public): Indica que la estación está temporalmente fuera de servicio 
+    para el público.
+
+Access Days Time: indica los días y las horas en las que la estación de carga está disponible 
+para su uso.
+
+Cards Accepted: indica qué tarjetas o métodos de pago son aceptados en cada estación de carga.
+
+BD Blends:  indica los tipos específicos de combustibles o mezclas que son aceptados en cada 
+estación de carga.
+
+NG Fill Type Code: indica el tipo de código o código de llenado para estaciones de carga de gas 
+natural (NG).
+
+NG PSI: indica la presión de llenado de gas natural (NG) en libras por pulgada cuadrada (PSI) 
+para las estaciones de carga.
+
+Latitude: es la Latitud.
+
+Longitude: es la longitud.  
+
+Open Date: Fecha de apertura 
+
+NG Vehicle Class:  parece contener información sobre la clase de vehículo compatible con la 
+estación de carga de gas natural (NG).
+    MD (Medium Duty)
+    LD (Light Duty)
+    HD (Heavy Duty)
+
+E85 Blender Pump: parece indicar si la estación de carga es una bomba mezcladora de E85. E85 
+es una mezcla de 85% de etanol y 15% de gasolina. 
+
+EV Connector Types:  indica los tipos de conectores que están disponibles en las estaciones de 
+carga para vehículos eléctricos (EV)
+    "HD", "MD", y "LD" parecen indicar conectores de alta, media y baja potencia, respectivamente.
+    "CHADEMO" y "J1772" son dos tipos comunes de conectores utilizados para cargar vehículos 
+    eléctricos.
+    "J1772COMBO" es otro tipo de conector que combina el estándar J1772 con conectividad de carga 
+    rápida.
+
+CNG Total Compression Capacity:  proporciona información sobre la capacidad total de compresión de 
+gas natural en cada estación de carga.
+
+CNG Storage Capacity:  indica la capacidad de almacenamiento de gas natural comprimido (CNG) en 
+cada ubicación de la estación de carga.
+
