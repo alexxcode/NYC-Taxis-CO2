@@ -395,7 +395,7 @@ Cada KPI se calculará utilizando fórmulas específicas basadas en los datos re
     Meta: Mantener una utilización de cargadores de vehículos eléctricos superior al 90%.
 
 
-## Tecnologías a usar
+## 10. Tecnologías a usar (cambiar por lo que hizo Alexis)
 
 ### Tecnologías para el Proyecto de Análisis de Tráfico y Contaminación en NYC
 
