@@ -23,7 +23,7 @@ Para lograr los objetivos establecidos, necesitamos:
 - Comunicación clara y efectiva con el cliente a lo largo del proyecto.
 
 ## El Equipo
-Contamos con un equipo interdisciplinario de expertos en análisis de datos, sostenibilidad y tecnología, que colaborará estrechamente con el cliente para alcanzar resultados sólidos y sostenibles.
+Este equipo llevará a cabo las siguientes funciones: data engineering (ingeniería de datos), data analysis (análisis de datos) y machine learning analysis (análisis de aprendizaje automático), con el objetivo de garantizar la entrega de entregables sólidos en las diferentes áreas de trabajo que abarca el proyecto.
 
 ## Alcance
 
