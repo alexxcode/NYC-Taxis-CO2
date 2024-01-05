@@ -67,7 +67,7 @@ In summary, we have made these data delimitation decisions in order to ensure th
 - Current Charging Infrastructure:** Electric vehicle recommendations will consider the existing charging infrastructure, to provide practical and applicable suggestions in the current context.
 
 
-## What Are We Seeking To Solve With This Project (objectives)?
+## 7. What Are We Seeking To Solve With This Project (objectives)?
 1. **Environmental Impact of Passenger Transportation:** Our first objective is to analyze the movement of cabs and ridesharing services in New York City to assess their environmental impact, focusing on the relationship to air quality, noise pollution, and CO2 emissions.
 
 2. **Transit Company Economic Efficiency:** The second objective is to evaluate the economic performance of the ride-sharing company. We will use metrics such as trip length, fare percentage, and operating costs to identify opportunities for efficiency optimization and cost reduction.
