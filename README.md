@@ -453,3 +453,34 @@ Each KPI will be calculated using specific formulas based on the data collected 
 - Project Use**: It will be used for source code management, change tracking, development collaboration and project documentation, ensuring an organized and efficient workflow in software development and data analysis.
 
 Each of these technologies has been carefully selected to address specific aspects of the project, from data analysis and processing to collaboration and presentation of results, ensuring a comprehensive and efficient approach to traffic and pollution analysis in NYC.
+
+
+## 12. Cronograma
+| Activity                                       | Monday | Tuesday | Wednesday | Thursday | Friday | Sprints    |
+| --------------------------------------------- | ------ | ------- | --------- | -------- | ------ | ---------- |
+| **WEEK 1**                                    |        |         |           |          |        | **Sprint 1** |
+| Understanding the current situation           |   x    |    x    |     x     |    x     |        |            |
+| Defining objectives                           |        |         |     x     |          |        | **Sprint 1** |
+| Scoping                                       |        |         |     x     |          |        | **Sprint 1** |
+| KPIs development                              |   x    |    x    |     x     |    x     |        |            |
+| Creating Github repository                    |        |         |           |    x     |   x    | **Sprint 1** |
+| Proposed solution                             |   x    |    x    |     x     |    x     |        |            |
+| Project scope documentation                   |   x    |    x    |     x     |    x     |        |            |
+| Data EDA                                      |   x    |    x    |     x     |    x     |        |            |
+| Preliminary data quality analysis             |   x    |    x    |     x     |    x     |        |            |
+| **WEEK 2**                                    |        |         |           |          |        | **Sprint 2** |
+| Full ETL                                      |   x    |         |           |          |        |            |
+| Data structure implementation (DW, DL, etc.)  |   x    |    x    |           |          |        |            |
+| Automated ETL pipeline                        |   x    |    x    |           |          |        |            |
+| ER Model Design                               |   x    |    x    |           |          |        |            |
+| Sample data analysis                          |   x    |    x    |           |          |        |            |
+| MVP/Proof of Concept of Dashboard/ML Product  |   x    |    x    |           |          |        |            |
+| Documentation and report                      |        |    x    |     x     |          |        | **Sprint 2** |
+| **WEEK 3**                                    |        |         |           |          |        | **Sprint 3** |
+| Final Dashboard                               |   x    |    x    |           |          |        |            |
+| ML Product/s                                  |   x    |    x    |           |          |        |            |
+| Dashboard/Report Design                       |   x    |    x    |           |          |        |            |
+| ML Models in production                       |        |         |     x     |    x     |        | **Sprint 3** |
+| Model selection, feature engineering          |        |         |     x     |    x     |        | **Sprint 3** |
+| Analysis report                               |        |    x    |           |          |        | **Sprint 3** |
+| Project video preparation                     |        |         |           |    x     |        | **Sprint 3** |

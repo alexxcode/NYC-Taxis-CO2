@@ -452,4 +452,34 @@ Cada KPI se calculará utilizando fórmulas específicas basadas en los datos re
 
 Cada una de estas tecnologías ha sido cuidadosamente seleccionada para abordar aspectos específicos del proyecto, desde el análisis y procesamiento de datos hasta la colaboración y presentación de resultados, asegurando un enfoque integral y eficiente para el análisis de tráfico y la contaminación en NYC.
 
+## 12. Cronograma
+
+| Actividad                                       | Lunes | Martes | Miércoles | Jueves | Viernes | Sprints    |
+| ---------------------------------------------- | ----- | ------ | --------- | ------ | ------- | ---------- |
+| **SEMANA 1**                                   |       |        |           |        |         | **Sprint 1** |
+| Entendimiento de la situación actual           |   x   |   x    |    x      |   x    |         |            |
+| Definición de objetivos                        |       |        |    x      |        |         | **Sprint 1** |
+| Delimitación del alcance                      |       |        |    x      |        |         | **Sprint 1** |
+| Desarrollo de KPIs                            |   x   |   x    |    x      |   x    |         |            |
+| Creación del repositorio en Github            |       |        |           |   x    |   x     | **Sprint 1** |
+| Solución propuesta                            |   x   |   x    |    x      |   x    |         |            |
+| Documentación del alcance del proyecto        |   x   |   x    |    x      |   x    |         |            |
+| EDA de los datos                              |   x   |   x    |    x      |   x    |         |            |
+| Análisis preliminar de calidad de datos       |   x   |   x    |    x      |   x    |         |            |
+| **SEMANA 2**                                   |       |        |           |        |         | **Sprint 2** |
+| ETL completo                                   |   x   |        |           |        |         |            |
+| Estructura de datos implementada (DW, DL, etc.)|   x   |   x    |           |        |         |            |
+| Pipeline ETL automatizado                      |   x   |   x    |           |        |         |            |
+| Diseño del Modelo ER                           |   x   |   x    |           |        |         |            |
+| Análisis de datos de muestra                   |   x   |   x    |           |        |         |            |
+| MVP/Prueba de Concepto de Dashboard/Producto ML|   x   |   x    |           |        |         |            |
+| Documentación y reporte realizado              |       |   x    |    x      |        |         | **Sprint 2** |
+| **SEMANA 3**                                   |       |        |           |        |         | **Sprint 3** |
+| Dashboard final                                |   x   |   x    |           |        |         |            |
+| Producto/s de ML                               |   x   |   x    |           |        |         |            |
+| Diseño de Reportes/Dashboards                  |   x   |   x    |           |        |         |            |
+| Modelos de ML en producción                   |       |        |    x      |   x    |         | **Sprint 3** |
+| Selección del modelo, feature engineering      |       |        |    x      |   x    |         | **Sprint 3** |
+| Informe de análisis                            |       |   x    |           |        |         | **Sprint 3** |
+| Preparación de video del proyecto              |       |        |           |   x    |         | **Sprint 3** |
 
