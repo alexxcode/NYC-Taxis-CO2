@@ -1,5 +1,110 @@
 ## Data Dictionary
 
+## 1. **Light Duty Vehicles**
+
+1. **Vehicle ID:** Identification number for the vehicle
+
+2. **Fuel ID:** Identification number for the type of fuel
+
+3. **Fuel Configuration ID:** Identification number for the fuel configuration
+
+4. **Manufacturer ID:** Identification number for the manufacturer
+
+5. **Category ID:** Identification number for the category of vehicle
+
+6. **Model:** Model of the vehicle
+
+7. **Model Year:** The year the model of the vehicle was released
+   
+8. **Alternative Fuel Economy City:** Fuel economy in city conditions for alternative fuels
+    
+9. **Alternative Fuel Economy Highway:** Fuel economy on highways for alternative fuels
+    
+10. **Alternative Fuel Economy Combined:** Combined fuel economy for alternative fuels
+    
+11. **Conventional Fuel Economy City:** Fuel economy in city conditions for conventional fuels
+    
+12. **Conventional Fuel Economy Highway:** Fuel economy on highways for conventional fuels
+    
+13. **Conventional Fuel Economy Combined:** Combined fuel economy for conventional fuels
+    
+14. **Transmission Type:** Type of transmission used in the vehicle
+    
+15. **Engine Type:** Type of engine in the vehicle
+    
+16. **Engine Size:** Size of the vehicle's engine
+    
+17. **Engine Cylinder Count:** Number of cylinders in the vehicle's engine
+    
+18. **Engine Description:** Description of the vehicle's engine
+    
+19. **Manufacturer:** Name of the manufacturer
+    
+20. **Manufacturer URL:** URL related to the manufacturer
+
+21. **Category:** Category or type of the vehicle
+    
+22. **Fuel Code:** Code representing the type of fuel
+    
+23. **Fuel:** Type of fuel used by the vehicle
+    
+24. **Fuel Configuration Name:** Name of the fuel configuration
+    
+25. **Electric-Only Range:** Range when operating solely on electric power
+    
+26. **PHEV Total Range:** Total range for plug-in hybrid vehicles
+    
+27. **PHEV Type:** Type of plug-in hybrid vehicle
+    
+28. **Notes:** Additional notes or remarks
+    
+29. **Drivetrain:** Type of drivetrain used in the vehicle
+
+## 2. **Alternative Fuel Vehicles US**
+
+1. **Category:** Vehicle Type
+
+2. **Model:** Vehicle model, for example, "NSX" and "A3".
+
+3. **Model Year:** Year of the vehicle model
+
+4. **Manufacturer:** Vehicle manufacturer
+
+5. **Fuel:** Type of fuel used by the vehicle
+
+6. **All-Electric Range:** Fully electric range for electric vehicles
+
+7. **PHEV Total Range:** Total range for plug-in hybrid vehicles
+
+8. **Alternative Fuel Economy City:** Fuel economy in city for alternative fuels
+
+9. **Alternative Fuel Economy Highway:** Fuel economy on highway for alternative fuels
+
+10. **Alternative Fuel Economy Combined:** Combined fuel economy for alternative fuels
+
+11. **Conventional Fuel Economy City:** Fuel economy in city for conventional fuels
+
+12. **Conventional Fuel Economy Highway:** Fuel economy on highway for conventional fuels
+
+13. **Conventional Fuel Economy Combined:** Combined fuel economy for conventional fuels
+
+14. **Transmission Type:** Type of transmission
+
+15. **Transmission Make:** Transmission manufacturer
+
+16. **Engine Type:** Type of engine, for example, "SI" (fuel injection).
+
+17. **Engine Size:** Engine size, for example, "3.5L" and "2.0L".
+
+18. **Engine Cylinder Count:** Number of cylinders in the engine, for example, 6 and 4 cylinders.
+
+19. **Number of Passengers:** Number of passengers the vehicle can accommodate
+
+20. **Heavy-Duty Power System:** Heavy-duty power system
+
+21. **Notes:** Additional notes, NaN indicates no data in this case.
+
+22. **Drivetrain:** Type of drivetrain, for example, "AWD" (all-wheel drive) and "FWD" (front-wheel drive).
 
 ## 4. **ElectricCarData**
 
