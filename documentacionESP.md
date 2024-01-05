@@ -27,6 +27,9 @@ Para lograr los objetivos establecidos, necesitamos:
 - Adaptación a las condiciones y restricciones del entorno operativo del cliente.
 - Comunicación clara y efectiva con el cliente a lo largo del proyecto.
 
+- **Datos Disponibles**: Obtener una visión clara de los conjuntos de datos disponibles, incluyendo información de la NYC Taxi and Limousine Commission, datos climáticos, emisiones de CO2 y otros relevantes para el análisis.
+- **Expectativas y Objetivos
+
 ## 5. Objetivo principal
 Nuestro objetivo principal es evaluar el movimiento de los taxis y servicios de viajes compartidos en la ciudad de Nueva York para proporcionar a la empresa de transporte de pasajeros información clave sobre la relación entre estos medios de transporte y la calidad del aire, contaminación sonora, y otros factores relevantes, incluyendo alternativas más rentables a largo plazo. Esto permitirá a la empresa tomar decisiones más acordes con sus objetivos.
 
@@ -71,10 +74,6 @@ En resumen, hemos tomado estas decisiones de delimitación de datos con el objet
 
 4. **Identificación de Áreas de Mejora:** Finalmente, nuestro cuarto objetivo es identificar áreas específicas en las que la empresa pueda mejorar su eficiencia operativa, reducir su huella ambiental y aumentar su rentabilidad. Estas áreas de mejora se derivarán de un análisis detallado de los datos y serán fundamentales para el éxito y la sostenibilidad de la empresa.
 
-## Entendimiento y Necesidades
-- **Entendimiento de la Industria**: Comprender la industria del transporte de pasajeros y su contexto actual en Nueva York. Conocer los desafíos y objetivos específicos de la empresa de transporte en términos de eficiencia operativa, impacto ambiental y posible adopción de vehículos eléctricos.
-- **Datos Disponibles**: Obtener una visión clara de los conjuntos de datos disponibles, incluyendo información de la NYC Taxi and Limousine Commission, datos climáticos, emisiones de CO2 y otros relevantes para el análisis.
-- **Expectativas y Objetivos
 
 
 
@@ -395,7 +394,7 @@ Cada KPI se calculará utilizando fórmulas específicas basadas en los datos re
     Meta: Mantener una utilización de cargadores de vehículos eléctricos superior al 90%.
 
 
-## 10. Tecnologías a usar (cambiar por lo que hizo Alexis)
+## 11. Tecnologías a usar (cambiar por lo que hizo Alexis)
 
 ### Tecnologías para el Proyecto de Análisis de Tráfico y Contaminación en NYC
 
