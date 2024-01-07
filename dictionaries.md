@@ -1,4 +1,4 @@
-## Data Dictionary
+# Data Dictionary
 
 ## 1. **Light Duty Vehicles**
 
@@ -106,6 +106,30 @@
 
 22. **Drivetrain:** Type of drivetrain, for example, "AWD" (all-wheel drive) and "FWD" (front-wheel drive).
 
+## 3. Electric and alternative full charing
+
+1. **Fuel Type Code:** Indicates the type of fuel used by vehicle charging stations.
+
+* CNG: Compressed Natural Gas.
+* E85: A blend of ethanol with 85% ethanol and 15% gasoline.
+* BD: Biodiesel, a renewable diesel fuel derived from biological sources.
+* ELEC: Electricity.
+* LPG: Liquefied Petroleum Gas.
+
+2. **Station Name:** Name of the station.
+
+3. **Street Address:** Represents the physical addresses of vehicle charging stations.
+
+4. **Intersection Directions:** Provides detailed instructions on how to reach each charging station from specific locations or via specific routes.
+
+5. **City:** City.
+
+6. **State:** State.
+
+7. **ZIP:** ZIP code.
+
+
+
 ## 4. **ElectricCarData**
 
 1. **Brand:** Car brand (object).
@@ -136,7 +160,7 @@
 
 14. **PriceEuro:** Vehicle price in euros (int).
 
-# 5. **Taxi_zones** 
+# 5-6. **Taxi_zones** 
 
 1. **Shape_Leng:** Length of the shape or area boundary (float).
 
@@ -235,3 +259,44 @@
 
 
 27. **phevComb (Plug-in Hybrid Electric Vehicle Combined MPG) (float):** A measure of the fuel consumption of the vehicle under mixed driving conditions, expressed in miles per gallon equivalent, which is a unit that compares the energy consumed by different types of fuel.
+
+
+28. highwayCD: It seems to be related to highway fuel economy for different types of vehicles.
+
+29. trany: It appears to contain information about the type of transmission of vehicles.
+
+30. UCity: It seems to contain numerical values that could represent city fuel efficiency for 
+different vehicles.
+
+31. UHighway: It seems to contain numerical values that could represent highway fuel efficiency for 
+different vehicles.
+
+32. youSaveSpend:It seems to contain numerical values that possibly represent the savings or expenditure 
+associated with the fuel efficiency of a vehicle compared to an average vehicle.
+
+33. trans_dscr: It appears to contain descriptions related to the type or mode of transmission of the 
+vehicles.
+
+34. sCharger: It appears to contain categorical values indicating the presence of a supercharger in 
+the vehicles.
+
+35. atvType: It appears to contain information about the type of propulsion system or technology used in vehicles.
+
+    - Hybrid: Indicates that the vehicle is a hybrid.
+    
+    - Diesel: Indicates that the vehicle uses a diesel engine.
+    
+    - EV: Indicates that the vehicle is electric.
+    
+    - FFV: Possibly indicates that the vehicle is a Flexible Fuel Vehicle, capable of running on 
+    alternative fuels such as ethanol.
+    
+    - Bifuel (CNG): Indicates that the vehicle has the capability to use two types of fuel, with 
+    one of them being compressed natural gas (CNG).
+    
+    - CNG: Indicates that the vehicle runs on compressed natural gas.
+    
+    - Bifuel (LPG): Indicates that the vehicle has the capability to use two types of fuel, with 
+    one of them being liquefied petroleum gas (LPG).
+
+36. "createdOn" seems to contain creation dates associated with the records of vehicles in the dataset.
