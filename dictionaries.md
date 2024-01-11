@@ -1,5 +1,79 @@
 # Data Dictionary
 
+
+## Yellow Taxi Trip Records
+
+1. **VendorID:** A code indicating the TPEP provider that provided the record.
+(Values: 1: Creative Mobile Technologies, LLC 2: VeriFone Inc.)
+
+2. **tpep_pickup_datetime:** The date and time when the meter was engaged. 
+Data type: Datetime
+
+3. **tpep_dropoff_datetime:** The date and time when the meter was disengaged. Data type: Datetime
+
+4. **Passenger_count:** The number of passengers in the vehicle. This is a driver-entered value.
+Data type: Integer
+
+5. **Trip_distance:** The elapsed trip distance in miles reported by the taximeter.
+Data type: Numeric (decimal)
+
+6. **PULocationID:** TLC Taxi Zone in which the taximeter was engaged.
+Data type: Integer
+
+7. **DOLocationID:** TLC Taxi Zone in which the taximeter was disengaged.
+Data type: Integer
+
+8. **RateCodeID:** The final rate code in effect at the end of the trip.
+(Values:
+1: Standard rate
+2: JFK
+3: Newark
+4: Nassau or Westchester
+5: Negotiated fare
+6: Group ride)
+
+9. **Store_and_fwd_flag:** Indicates whether the trip record was held in vehicle memory before sending to the vendor (store and forward) due to a lack of server connection.
+(Values:
+Y: Store and forward trip
+N: Not a store and forward trip)
+
+10. **Payment_type:** A numeric code signifying how the passenger paid for the trip.
+(Values:
+1: Credit card
+2: Cash
+3: No charge
+4: Dispute
+5: Unknown
+6: Voided trip)
+
+11. **Fare_amount:** The time-and-distance fare calculated by the meter.
+Data type: Numeric (decimal)
+
+12. **Extra:** Miscellaneous extras and surcharges (currently only $0.50 and $1 rush hour and overnight charges).
+Data type: Numeric (decimal)
+
+13. **MTA_tax:** $0.50 MTA tax automatically triggered based on the metered rate in use.
+Data type: Numeric (decimal)
+
+14. **Improvement_surcharge:** $0.30 improvement surcharge assessed at the flag drop (began in 2015).
+Data type: Numeric (decimal)
+
+15. **Tip_amount:** Tip amount (automatically populated for credit card tips; cash tips not included).
+Data type: Numeric (decimal)
+
+16. **Tolls_amount:** Total amount of all tolls paid in the trip.
+Data type: Numeric (decimal)
+
+17. **Total_amount:** The total amount charged to passengers (does not include cash tips).
+Data type: Numeric (decimal)
+
+18. **Congestion_Surcharge:** Total amount collected in the trip for NYS congestion surcharge.
+Data type: Numeric (decimal)
+
+19. **Airport_fee:** $1.25 fee for pickups at LaGuardia and John F. Kennedy Airports.
+Data type: Numeric (decimal)
+
+
 ## 1. **Light Duty Vehicles**
 
 1. **Vehicle ID:** Identification number for the vehicle
@@ -261,11 +335,11 @@
 27. **phevComb (Plug-in Hybrid Electric Vehicle Combined MPG) (float):** A measure of the fuel consumption of the vehicle under mixed driving conditions, expressed in miles per gallon equivalent, which is a unit that compares the energy consumed by different types of fuel.
 
 
-28. highwayCD: It seems to be related to highway fuel economy for different types of vehicles.
+28. **highwayCD:** highway fuel economy for different types of vehicles.
 
-29. trany: It appears to contain information about the type of transmission of vehicles.
+29. **trany:** information about the type of transmission of vehicles.
 
-30. UCity: It seems to contain numerical values that could represent city fuel efficiency for 
+30. **UCity:** Numerical values that could represent city fuel efficiency for 
 different vehicles.
 
 31. UHighway: It seems to contain numerical values that could represent highway fuel efficiency for 
