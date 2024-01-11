@@ -35,7 +35,7 @@
 
 - **Day 1: Complete ETL**
   - Development and testing of the ETL process.
-  - Responsible: [Responsible Name]
+  - Responsible: [Alexis, Eduardo, Ramiro]
 
 - **Day 1-2: Implemented Data Structures (DW, DL, etc.)**
   - Design and implementation of data structures.
@@ -43,7 +43,7 @@
 
 - **Day 2-3: Automated ETL Pipeline**
   - Automation of the data flow.
-  - Responsible: [Responsible Name]
+  - Responsible: [Eduardo]
 
 - **Day 1-2: ER Model Design**
   - Creation of a detailed entity-relationship (ER) model.
@@ -55,7 +55,7 @@
 
 - **Day 3-4: MVP/Proof of Concept of Dashboard/ML Product**
   - Development of a functional prototype.
-  - Responsible: [Responsible Name]
+  - Responsible: [Eduardo]
 
 - **Day 4-5: Documentation and Reporting**
   - Updating documentation with progress.
