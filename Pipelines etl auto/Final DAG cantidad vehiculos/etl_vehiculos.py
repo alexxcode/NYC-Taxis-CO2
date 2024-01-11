@@ -1,5 +1,3 @@
-# etl_vehiculos.py
-
 import requests
 import pandas as pd
 import io
@@ -28,7 +26,7 @@ def transformar_datos(data):
     return data_since_1980
 
 def predict_vehicle_type_sarima(data, vehicle_type):
-    predictions = []
+    predictions = {}
     for state in data.index:
         state_data = data.loc[state].dropna()
         if len(state_data) > 2:
@@ -42,15 +40,12 @@ def predict_vehicle_type_sarima(data, vehicle_type):
                                                   enforce_invertibility=False)
                 results = model.fit(disp=False)
                 forecast = results.get_forecast(steps=2).predicted_mean
-                for year, value in zip([2019, 2020], forecast):
-                    predictions.append({'state': state, 'year': year, vehicle_type: value})
+                predictions[state] = {2019: forecast.iloc[0], 2020: forecast.iloc[1]}
             else:
-                for year in [2019, 2020]:
-                    predictions.append({'state': state, 'year': year, vehicle_type: None})
+                predictions[state] = {2019: None, 2020: None}
         else:
-            for year in [2019, 2020]:
-                predictions.append({'state': state, 'year': year, vehicle_type: None})
-    return pd.DataFrame(predictions)
+            predictions[state] = {2019: None, 2020: None}
+    return pd.DataFrame(predictions).T
 
 def upload_to_bucket(df, bucket_name, directory_name, file_name):
     create_directory_in_bucket(bucket_name, directory_name)
@@ -58,7 +53,3 @@ def upload_to_bucket(df, bucket_name, directory_name, file_name):
     bucket = storage_client.bucket(bucket_name)
     blob = bucket.blob(f"{directory_name}/{file_name}")
     blob.upload_from_string(df.to_csv(index=False), content_type='text/csv')
-
-def integrate_predictions(transformed_data, predicted_data):
-    integrated_data = pd.merge(transformed_data, predicted_data, on=['state', 'year'], how='left')
-    return integrated_data
