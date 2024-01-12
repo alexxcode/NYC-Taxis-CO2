@@ -23,7 +23,9 @@
   - **Responsables**: [Alexis], [Eduardo] y [Ramiro]
 
 ## Día 3-4: Automatización del Pipeline ETL
-- Automatización del flujo de datos.
+- Automatización del flujo de datos en GCP.
+- Descarga a bucket de data en raw
+- Carga a bucket de data curada
   - **Responsable**: [Eduardo]
 
 ## Día 1-4: Creación de Estructuras de Datos (DW, DL, etc.)
