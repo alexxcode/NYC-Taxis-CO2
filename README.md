@@ -205,47 +205,47 @@ Cada una de estas tecnologías ha sido cuidadosamente seleccionada para abordar 
 
 ### En arquitectura de datos
 
-los DAGS y sus funciones asociadas que fueron usados para la carga y el ETL automáticos pueden encontarse [aqui](Sprint-03\Data_flow_management_and_orchestration)
+los DAGS y sus funciones asociadas que fueron usados para la carga y el ETL automáticos pueden encontarse [aqui](Sprint-03/Data_flow_management_and_orchestration)
 
 ### En Machile Learning
 
 - Se construyó un modelo de pronostico para las emisiones de CO2, de ruido y el gasto por consumo de gasolina generado por los taxis. Para ello la metodología fue la siguiente:
 
-   - A falta de datos específicos, y con miras a evaluar los beneficios de cambiar un porcentaje de la flota a vehiculos eléctricos, se asumió que todos los vehiculos actuales usados como taxis yellow y green son de tipo convencional. Para estimar la producción de CO2 por Borough se utilizó una [base de datos](Sprint-03\ML_models\ML_ElecVsConv_coef\processed_edmunds_data.csv) con la que se obtuvo el valor medio de emisiones de vehiculos convencionales por milla, de esta misma base también se obtuvo la emisión media de sonido. Además de ello, se utilizó también para construir, por medio de una regresión múltiple, un coeficiente de reducción de emisiones de Co2 y de ruido con base en si el coche es o no eléctrico. Del mismo modo, se utilizó para constuir un cociente de ahorro. La libreta que permitió construirlo es [esta](Sprint-03\ML_models\ML_ElecVsConv_coef\analisis_edmunds.ipynb).
+   - A falta de datos específicos, y con miras a evaluar los beneficios de cambiar un porcentaje de la flota a vehiculos eléctricos, se asumió que todos los vehiculos actuales usados como taxis yellow y green son de tipo convencional. Para estimar la producción de CO2 por Borough se utilizó una [base de datos](Sprint-03/ML_models/ML_ElecVsConv_coef/processed_edmunds_data.csv) con la que se obtuvo el valor medio de emisiones de vehiculos convencionales por milla, de esta misma base también se obtuvo la emisión media de sonido. Además de ello, se utilizó también para construir, por medio de una regresión múltiple, un coeficiente de reducción de emisiones de Co2 y de ruido con base en si el coche es o no eléctrico. Del mismo modo, se utilizó para constuir un cociente de ahorro. La libreta que permitió construirlo es [esta](Sprint-03/ML_models/ML_ElecVsConv_coef/analisis_edmunds.ipynb).
 
-   - A partir de lo anterior, y con base en el supuesto señalado, las bases de taxis Yellow y Green fueron integradas y procesadas desde los años 2012 y 2014 respectivamente, para empatar para los datos obtenidos sobre el costo de la gasolina. En ese proceso, se agruparon los datos por 'borough', año y mes para calcular estadísticas clave. Luego, con las medias calculadas señaladas antes, para emisiones de CO2, ruido y rendimiento en millas por galon para vehículos no eléctricos, se calculó el costo mensual del combustible (se usaron los valores promedio mensuales para New York), las emisiones de CO2 y el volumen de ruido en función de la distancia total recorrida y el número total de viajes, el calculo se hizo por volumen total mensual. El proceso puede seguirse en la libreta que contiene el ETL de ambos tipos de taxis ([Yellow aquí](Sprint-03\ML_models\ML_Forecast_Taxis_Co2NoiseSavings\ETL_Yellow.ipynb), [Green aquí](Sprint-03\ML_models\ML_Forecast_Taxis_Co2NoiseSavings\ETL_Green.ipynb)). Los archivos finales de ese proceso fueron usados para entrenar un modelo ARIMA que permitiera pronosticar valores 12 meses en futuro para las variables ya mencionadas, diferenciando por Borough.
+   - A partir de lo anterior, y con base en el supuesto señalado, las bases de taxis Yellow y Green fueron integradas y procesadas desde los años 2012 y 2014 respectivamente, para empatar para los datos obtenidos sobre el costo de la gasolina. En ese proceso, se agruparon los datos por 'borough', año y mes para calcular estadísticas clave. Luego, con las medias calculadas señaladas antes, para emisiones de CO2, ruido y rendimiento en millas por galon para vehículos no eléctricos, se calculó el costo mensual del combustible (se usaron los valores promedio mensuales para New York), las emisiones de CO2 y el volumen de ruido en función de la distancia total recorrida y el número total de viajes, el calculo se hizo por volumen total mensual. El proceso puede seguirse en la libreta que contiene el ETL de ambos tipos de taxis ([Yellow aquí](Sprint-03/ML_models/ML_Forecast_Taxis_Co2NoiseSavings/ETL_Yellow.ipynb), [Green aquí](Sprint-03/ML_models/ML_Forecast_Taxis_Co2NoiseSavings/ETL_Green.ipynb)). Los archivos finales de ese proceso fueron usados para entrenar un modelo ARIMA que permitiera pronosticar valores 12 meses en futuro para las variables ya mencionadas, diferenciando por Borough.
 
-   - Las libretas que contienen los modelos son estas: para [Yellow taxis aquí](Sprint-03\ML_models\ML_Forecast_Taxis_Co2NoiseSavings\modelo_Yellowy.ipynb) y para [Green taxis aquí](Sprint-03\ML_models\ML_Forecast_Taxis_Co2NoiseSavings\modelo_green.ipynb). En un principio se pretendía utilizar un modelo arima, debido a que las emisiones a pronosticar provenían de un calculo directo a partir de los datos, sin embargo pudo notarse la existencia de "picos" atribuibles a la pandemia, por lo cual se creó una variable binaria que cuyo valor es 1 en las observaciones que van desde marzo de 2020 hasta mayo de 2023 (fecha en que la OMS dio por terminada la emergencia por COVID-19). Por este motivo al final se realizó un modelo SARIMAX, que se utiliza para integrar variables explicativas como el covid. Se muestra ahora una predicción del modelo para Taxis Yellow   
+   - Las libretas que contienen los modelos son estas: para [Yellow taxis aquí](Sprint-03/ML_models/ML_Forecast_Taxis_Co2NoiseSavings/modelo_Yellowy.ipynb) y para [Green taxis aquí](Sprint-03/ML_models/ML_Forecast_Taxis_Co2NoiseSavings/modelo_green.ipynb). En un principio se pretendía utilizar un modelo arima, debido a que las emisiones a pronosticar provenían de un calculo directo a partir de los datos, sin embargo pudo notarse la existencia de "picos" atribuibles a la pandemia, por lo cual se creó una variable binaria que cuyo valor es 1 en las observaciones que van desde marzo de 2020 hasta mayo de 2023 (fecha en que la OMS dio por terminada la emergencia por COVID-19). Por este motivo al final se realizó un modelo SARIMAX, que se utiliza para integrar variables explicativas como el covid. Se muestra ahora una predicción del modelo para Taxis Yellow   
    
-   ![yellow](imagenes\4.png)
+   ![yellow](imagenes/4.png)
 
    - Predicciones similares se realizaron para el ruido y el ahorro en gasto por combustible. El pronostico fue necesario para poder simular una situación contrafactual, ya que ningúna variable en la base de datos permitía analizar el impacto en emisiones, ruido y ahorro, de cambiar un porcentaje de la flota. Con ello en mente, se utilizaron varias estrategias para simular el ahorro ante un cambio en la flota del 20%. Las cuales se comentan a continuación. 
 
    #### Reducción de las emisiones de CO2 
-   - En este caso, dado un valor pronosticado, se restó de él las emisiones de la cantidad de vehiculos que no van a generar contaminación (es decir, el 20% que ya serán electricos = valor pronosticado* 0.20), dicho valor fue graficado debajo del valor pronosticado. ![yellow](imagenes\5.png)
+   - En este caso, dado un valor pronosticado, se restó de él las emisiones de la cantidad de vehiculos que no van a generar contaminación (es decir, el 20% que ya serán electricos = valor pronosticado* 0.20), dicho valor fue graficado debajo del valor pronosticado. ![yellow](imagenes/5.png)
 
    #### Reducción emisiones de ruido
-   - Para las emisiones de ruido el calculo no fue tan directo debido a que los coches electricos sí siguen generando valores para esta variable (contrario a CO2 donde el valor se vuelve 0). Por ello a el volumen pronosticado emitido por flota que ya sería electrica (20% del valor predicho) fue multiplicado por el [coeficiente de reducción](Sprint-03\ML_models\ML_ElecVsConv_coef\analisis_edmunds.ipynb), el resultado de ello fue restado al valor pronosticado. 
+   - Para las emisiones de ruido el calculo no fue tan directo debido a que los coches electricos sí siguen generando valores para esta variable (contrario a CO2 donde el valor se vuelve 0). Por ello a el volumen pronosticado emitido por flota que ya sería electrica (20% del valor predicho) fue multiplicado por el [coeficiente de reducción](Sprint-03/ML_models/ML_ElecVsConv_coef/analisis_edmunds.ipynb), el resultado de ello fue restado al valor pronosticado. 
    
-![noise](imagenes\6.png)
+![noise](imagenes/6.png)
    
    #### Ahorro en gasto de combustible. 
    - En este caso se obtuvo la media del rendimiento por gallon de los vehiculos convencionales y eléctricos, de ello se obtuvo un cociente de reducción. En este caso al valor pronosticado fue restado el producto del cambio porcentual (.20) por el mismo valor pronosticado,  cuyo resultado de fue dividido por cociente de reducción.  
    (P- (.2*P)/cociente)
 
-![noise](imagenes\8.png)
+![noise](imagenes/8.png)
 
 
 - Finalmente. El modelo de predicción fue desplegado en Fast-API, por medio de una instancia virtual en Google Cloud. Puede accederse a ella desde "http://34.125.39.205:8000/"  (es necesario asegurarse de que el navegador no cambia el protocolo a https, si lo hace la api no va a cargar). Link Directo [aquí](http://34.125.39.205:8000/) (aunque se recomienda copiar y pegar la dirección proporcionada en el navegador). El despliegue tiene un End Point para consultar los resultados del modelo para el Pronostico, el ahorro y la diferencia entre estos para emisiones de Co2, emisiones de ruido y ahorro para 12 meses desde el último dato procesado (2023-6). 
 
-![noise](imagenes\9.png)
+![noise](imagenes/9.png)
 
 - El despliegue maximiza las bondades informativas del modelo, pues permite ajustar el porcentaje de cambio de la flota
 
-![noise](imagenes\10.png)
+![noise](imagenes/10.png)
 
 - otorga el valor pronosticado, el valor para el cambio dado por el  porcentaje ingresado y la diferencia entre ambos, para cada distrito. 
 
-![noise](imagenes\11.png)
+![noise](imagenes/11.png)
 
 ### C.  En análisis de datos
