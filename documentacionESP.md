@@ -259,7 +259,7 @@ La primera fase de mi responsabilidad consistió en la extracción y limpieza de
 
 Una vez obtenidos los datos, llevé a cabo un análisis exhaustivo que incluyó la creación de visualizaciones significativas para identificar patrones, tendencias y relaciones. El análisis se centró en variables clave como el monto de cobro por zona, la distribución geográfica de los taxis y la presencia de estaciones eléctricas en Nueva York.
 
-Power BI Dashboard:
+## Power BI Dashboard:
 
 Para comunicar de manera efectiva los hallazgos, desarrollé un completo dashboard utilizando Power BI. Este dashboard abarcó varias páginas, cada una dedicada a un aspecto específico del análisis:
 
