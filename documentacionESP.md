@@ -28,40 +28,32 @@ Para lograr los objetivos establecidos, necesitamos:
 - Comunicación clara y efectiva con el cliente a lo largo del proyecto.
 
 - **Datos Disponibles**: Obtener una visión clara de los conjuntos de datos disponibles, incluyendo información de la NYC Taxi and Limousine Commission, datos climáticos, emisiones de CO2 y otros relevantes para el análisis.
-- **Expectativas y Objetivos
 
-## 5. Objetivo principal
+## 5. **Expectativas y Objetivos
+
+* Objetivo principal
 Nuestro objetivo principal es evaluar el movimiento de los taxis y servicios de viajes compartidos en la ciudad de Nueva York para proporcionar a la empresa de transporte de pasajeros información clave sobre la relación entre estos medios de transporte y la calidad del aire, contaminación sonora, y otros factores relevantes, incluyendo alternativas más rentables a largo plazo. Esto permitirá a la empresa tomar decisiones más acordes con sus objetivos.
 
 ## 6. Alcance
 
 ### 6.1.  Alcance a nivel de Datos
-- **Enfoque en Taxis Amarillos y FHV:** Nuestra principal área de interés recae en los taxis amarillos y los vehículos de alquiler de gran volumen (FHV). Estos dos tipos de servicios de transporte representan una parte significativa del tráfico en la ciudad y cuentan con una abundante cantidad de datos disponibles. Esta elección se basa en su capacidad para proporcionar información detallada sobre los viajes y su impacto ambiental.
-
-- **Exclusión de Taxis Verdes y Otros Servicios:** Hemos decidido excluir los taxis verdes y otros servicios de transporte de nuestro análisis principal. Esta decisión se justifica por varias razones importantes:
-
-- a. Limitación Geográfica: Los taxis verdes solo están autorizados para operar en áreas geográficas específicas de Nueva York, principalmente en Manhattan y algunas partes de otros distritos. Esto limita su alcance y no refleja adecuadamente la movilidad en toda la ciudad.
-
-- b. Falta de Datos Históricos Significativos: Los datos disponibles para los taxis verdes son limitados en comparación con los taxis amarillos, que tienen datos disponibles desde 2009. La disponibilidad de datos históricos es esencial para un análisis completo y a largo plazo de la movilidad urbana.
-
-- c. Áreas de Operación Restringidas: Aunque los taxis verdes se introdujeron para mejorar la disponibilidad de taxis en áreas menos atendidas, su capacidad para operar fuera de estas áreas está restringida. Esto significa que no pueden proporcionar una representación completa de la movilidad en toda la ciudad.
-
-- d. Falta de Información Detallada de Viajes Compartidos: Nuestro estudio se centra en analizar la movilidad en detalle, incluida la evaluación del impacto ambiental. Los datos de los taxis verdes pueden carecer de detalles importantes sobre la dinámica de los viajes compartidos y las emisiones de CO2, lo que dificulta la evaluación precisa del impacto ambiental.
-
-En resumen, hemos tomado estas decisiones de delimitación de datos con el objetivo de garantizar la representatividad y la calidad de nuestro estudio. Aunque reconocemos la importancia de los taxis verdes en el sistema de transporte de Nueva York, las limitaciones geográficas, la falta de datos históricos, y la ausencia de información detallada sobre viajes compartidos hacen que los datos de taxis amarillos y FHV sean la elección más sólida y adecuada para llevar a cabo nuestro análisis de movilidad y su impacto ambiental en la ciudad.
+- **Enfoque en Taxis Amarillos y verdes:** Nuestra principal área de interés recae en los taxis amarillos y los taxis verdes. Estos dos tipos de servicios de transporte representan una parte significativa del tráfico en la ciudad y cuentan con una abundante cantidad de datos disponibles, así como de datos consistentes respecto al tiempo de viaje, ubicación de recogida y distancia recorrida (a diferencia de los autos de alquiler que no proporcionan, de manera consistente, datos sobre distancia, factor crucial para nuestros análisis). En suma, esta elección se basa en su capacidad para proporcionar información detallada sobre los viajes y su impacto ambiental.
 
 ### 6.2. Alcance espacial
 - **Foco en la Ciudad de Nueva York:** El análisis se limita a la ciudad de Nueva York, fundamentalmente debido a las necesidades del cliente, pero también debido a su densidad de tráfico y disponibilidad de datos detallados. Esta delimitación permite concentrar el estudio en un área urbana con una infraestructura de transporte compleja y variada, proporcionando un caso de estudio representativo para ciudades con características similares.
+
 - **Exclusión de Áreas Fuera de NYC:** No se incluyen datos o análisis de otras ciudades o regiones. Esta decisión se basa en la necesidad de mantener la coherencia y relevancia de los datos dentro del contexto específico de Nueva York.
 
 ### 6.3. Alcance Temporal
-- **Uso de Datos Hasta la Fecha Más Reciente y desde 2009:** El informe utilizará datos disponibles hasta el momento más actual para garantizar que el análisis refleje las condiciones y tendencias más recientes. Esta delimitación asegura que el informe sea lo más actual y relevante posible.Los datos se restringirán al periodo a partir de 2009 que es el año en que comienzan a haber datos sobre los viajes de taxis. 
+- **Uso de Datos Hasta la Fecha Más Reciente y desde 2009:** El informe utilizará datos disponibles hasta el momento más actual para garantizar que el análisis refleje las condiciones y tendencias más recientes. Esta delimitación asegura que el informe sea lo más actual y relevante posible.Los datos se restringirán al periodo a partir de 2012 que es el año en que empata la información sobre taxis amarillos y verdes, así como sobre datos historicos sobre el precio de la gasolina en New york. Sin embargo, es necesario señalar que, por motivos de capacidad de computo, presentamos "dos proyectos". Por un lado, un análisis detallado de tendencias para los periodos de 2021 y 20222, y un análisis de prospectiva que abarca de 2012 a 2024.  
 
-- **No Proyección de Tendencias Futuras:** No se realizarán proyecciones sobre tendencias futuras del transporte o tecnología de vehículos eléctricos, ya que esto requeriría suposiciones y modelos que podrían llevar a conclusiones especulativas.
+
+- **Proyección de Tendencias Futuras:** Con el fin de pronosticar la influencia sobre el cambio de flota que es esencial para nuestro cliente se presentan datos proyectados hasta enero de 2024. 
 
 
 #### 6.4. Alcance en torno a supuestos Tecnológicos y Operativos
 - **Base en la Tecnología Actual de Vehículos Eléctricos:** El informe se basará en las especificaciones y rendimiento actuales de los vehículos eléctricos, proporcionando un análisis realista de su viabilidad en el presente. Esto se debe a que la inclusión de suposiciones sobre desarrollos futuros podría introducir incertidumbre y especulación en el análisis.
+
 - **Infraestructura de Carga Actual:** Las recomendaciones sobre vehículos eléctricos considerarán la infraestructura de carga existente, para proporcionar sugerencias prácticas y aplicables en el contexto actual.
 
 
@@ -71,9 +63,6 @@ En resumen, hemos tomado estas decisiones de delimitación de datos con el objet
 2. **Eficiencia Económica de la Empresa de Transporte:** El segundo objetivo consiste en evaluar el rendimiento económico de la empresa de transporte de pasajeros. Utilizaremos métricas como la duración de los viajes, el porcentaje de tarifas y los costos operativos para identificar oportunidades de optimización de la eficiencia y reducción de costos.
 
 3. **Viabilidad de Vehículos Eléctricos en la Flota:** Nuestro tercer objetivo es determinar la viabilidad de incorporar vehículos eléctricos en la flota de la empresa de transporte. Esto se basará en los resultados del análisis ambiental y económico. Proporcionaremos recomendaciones respaldadas por datos para apoyar la toma de decisiones informada en este aspecto.
-
-4. **Identificación de Áreas de Mejora:** Finalmente, nuestro cuarto objetivo es identificar áreas específicas en las que la empresa pueda mejorar su eficiencia operativa, reducir su huella ambiental y aumentar su rentabilidad. Estas áreas de mejora se derivarán de un análisis detallado de los datos y serán fundamentales para el éxito y la sostenibilidad de la empresa.
-
 
 
 
