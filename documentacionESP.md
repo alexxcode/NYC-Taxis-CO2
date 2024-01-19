@@ -93,19 +93,19 @@ Cada KPI se calculará utilizando fórmulas específicas basadas en los datos re
 
 1. **Tasa de reducción en emisiones anuales de CO2 al cambiar un 20% la flotilla a vehiculos electricos:**
 
-   Cálculo: ((Emisiones de CO2 en el año base (historico) - Emisiones de CO2 en el año actual(pronosticado)) / Emisiones de CO2 en el año base) * 100
+   Cálculo: ((Emisiones de CO2 en el año base (datos historicos, 1 año antes) - Emisiones de CO2 en el año actual(pronosticado a 12 meses)) / Emisiones de CO2 en el año base (datos historicos, 1 año antes)) * 100
 
    Meta: Reducción del 10% en las emisiones de CO2 en comparación con el año base.
 
 2. **Tasade reducción del gasto anual del combustible al cambiar un 20% la flotilla a vehiculos electricos:**
 
-   Cálculo: (gasto en combustible anual antes del cambio (datos historicos) - gasto en combustible anual despues del cambio (datos pronosticados)) / gasto en combustible anual antes del cambio (datos historicos) * 100
+   Cálculo: (gasto en combustible anual antes del cambio (datos historicos, 1 año antes) - gasto en combustible anual despues del cambio (pronosticado a 12 meses)) / gasto en combustible anual antes del cambio (datos historicos, 1 año antes) * 100
 
    Meta: Reducción del 10% en el gasto en combustible
 
 3. **Tasa de disminución del volumen anual de ruido cambiar un 20% la flotilla a vehiculos electricos:**
 
-   Cálculo: (volumen anual de ruido antes del cambio (datos historicos) - volumen anual de ruido  despues del cambio (datos pronosticados)) / volumen anual de ruido  antes del cambio (datos historicos) * 100
+   Cálculo: (volumen anual de ruido antes del cambio (datos historicos, 1 año antes) - volumen anual de ruido  despues del cambio (datos pronosticados a 12 meses)) / volumen anual de ruido  antes del cambio (datos historicos, 1 año antes) * 100
 
    Meta: Reducción del 10% en el volumen de ruido
 
