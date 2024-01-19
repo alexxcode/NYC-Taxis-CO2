@@ -2,7 +2,7 @@
 
 # Descripción del Proyecto 
 
-![taxi](imagenes\1.png)
+![taxi](imagenes/1.png)
 ## 1. Nosotros
 Somos una startup especializada en Business Analytics, comprometida en facilitar el crecimiento de las empresas a través de la toma de decisiones estratégicas. Nuestro enfoque se ha centrado centra en el análisis de datos para proporcionar insights valiosos y soluciones que impulsen el desarrollo y el éxito empresarial. 
 
