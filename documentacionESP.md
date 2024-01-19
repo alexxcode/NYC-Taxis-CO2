@@ -247,7 +247,7 @@ los DAGS y sus funciones asociadas que fueron usados para la carga y el ETL auto
 
 ### C.  En análisis de datos
 
-## Resumen Ejecutivo:
+## Resumen :
 
 En mi rol como Analista de Datos en el proyecto "NYC Taxis & Carbon Emission", desempeñé un papel crucial en la extracción, limpieza, análisis y presentación de datos para facilitar la toma de decisiones informadas. El enfoque del proyecto abarcó un extenso análisis de datos de Taxis Amarillos y Taxis Verdes , con especial atención a variables como la ubicación, las tarifas por zona , la contaminacion de ruido y por c02 y la infraestructura de estaciones eléctricas en Nueva York.
 
