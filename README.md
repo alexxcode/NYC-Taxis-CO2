@@ -88,7 +88,7 @@ La metodología Scrum se adapta al proyecto debido a su naturaleza dinámica y m
 
 En el archivo [scrum hitos](scrum_hitos.md)  puede revisarse el detalle de los roles existentes en la metodología, los hitos por sprint y los analistas responsables de ellos. 
 
-Del mismo modo, en [metodologia_especificaciones.md](documentacionESP.md) puede observarse de manera especifica los analisis que deben realizarse para atender los objetivos del proyecto
+Del mismo modo, en [metodologia_especificaciones.md](metodologia_especificaciones.md) puede observarse de manera especifica los analisis que deben realizarse para atender los objetivos del proyecto
 
 
 ## 9. KPIs, cálculo, meta y asociación
