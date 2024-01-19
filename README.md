@@ -205,7 +205,35 @@ Cada una de estas tecnologías ha sido cuidadosamente seleccionada para abordar 
 
 ### En arquitectura de datos
 
-los DAGS y sus funciones asociadas que fueron usados para la carga y el ETL automáticos pueden encontarse [aqui](Sprint-03/Data_flow_management_and_orchestration)
+El proceso de orquestación de datos en la nube consiste en la creación de flujos de trabajo automatizados que permiten el procesamiento, transformación y almacenamiento de datos en la nube. En este caso, se utilizó Google Composer para crear DAGs (Directed Acyclic Graphs) que se ejecutan automáticamente y realizan las siguientes tareas:
+
+- Web Scraping
+La primera tarea consiste en realizar web Scraping de distintas fuentes para obtener datos en formato HTML. Para ello, se utilizan las herramientas de Python como Scrapy o Beautiful Soup. Los datos obtenidos se almacenan en archivos Parquet o CSV en Google Storage.
+
+- Almacenamiento de datos
+Los archivos Parquet o CSV obtenidos en la etapa anterior se almacenan en Google Storage. Google Storage es un servicio de almacenamiento de objetos en la nube que ofrece una alta escalabilidad y rendimiento.
+- Transformación de datos
+Los datos almacenados en Google Storage se transforman con las herramientas de Google Cloud, como Cloud Dataproc. Estas herramientas permiten realizar una amplia gama de operaciones de transformación de datos, como limpieza, normalización, agrupación, etc.
+
+- Almacenamiento de datos transformados
+Los datos transformados se almacenan en BigQuery, un servicio de análisis de datos en la nube. BigQuery ofrece una alta escalabilidad y rendimiento para el almacenamiento y análisis de grandes volúmenes de datos.
+
+- Visualización de datos
+Los datos almacenados en BigQuery se pueden visualizar con el servicio de visualización de datos Power BI. Power BI ofrece una amplia gama de herramientas para la creación de informes y dashboards interactivos.
+
+Paso a paso:
+El proceso de orquestación de datos en la nube con Google Composer se puede dividir en los siguientes pasos:
+1.	Creación de un entorno de Cloud Composer
+En primer lugar, se debe crear un entorno de Cloud Composer. Un entorno de Cloud Composer es un espacio de trabajo aislado donde se pueden crear y ejecutar DAGs.
+2.	Creación de DAGs
+Una vez creado el entorno de Cloud Composer, se procede a crear los DAGs. Los DAGs son archivos de Python que definen el flujo de trabajo a ejecutar.
+3.	Configuración de los DAGs
+Los DAGs deben configurarse para especificar las tareas a ejecutar, el orden de ejecución y las condiciones de ejecución.
+4.	Publicación de los DAGs
+Una vez configurados los DAGs, se deben publicar para que puedan ejecutarse automáticamente.
+
+
+La orquestación de datos en la nube con Google Composer es una solución eficaz para el procesamiento, transformación y almacenamiento de datos a gran escala. Este proceso permite automatizar las tareas de ingesta, transformación y análisis de datos, lo que mejora la eficiencia y la productividad. Los DAGS y sus funciones asociadas que fueron usados para la carga y el ETL automáticos pueden encontarse [aqui](Sprint-03/Data_flow_management_and_orchestration)
 
 ### En Machile Learning
 
