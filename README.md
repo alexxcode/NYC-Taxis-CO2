@@ -264,7 +264,7 @@ La orquestación de datos en la nube con Google Composer es una solución eficaz
 ![noise](imagenes/8.png)
 
 
-- Finalmente. El modelo de predicción fue desplegado en Fast-API, por medio de una instancia virtual en Google Cloud. Puede accederse a ella desde "http://34.125.39.205:8000/docs"  (es necesario asegurarse de que el navegador no cambia el protocolo a https, si lo hace la api no va a cargar). Link Directo [aquí](http://34.125.39.205:8000/) (aunque se recomienda copiar y pegar la dirección proporcionada en el navegador). El despliegue tiene un End Point para consultar los resultados del modelo para el Pronostico, el ahorro y la diferencia entre estos para emisiones de Co2, emisiones de ruido y ahorro para 12 meses desde el último dato procesado (2023-6). 
+- Finalmente. El modelo de predicción fue desplegado en Fast-API, por medio de una instancia virtual en Google Cloud. Puede accederse a ella desde "http://34.125.39.205:8000/docs"  (es necesario asegurarse de que el navegador no cambia el protocolo a https, si lo hace la api no va a cargar). Link Directo [aquí](http://34.125.39.205:8000/docs) (aunque se recomienda copiar y pegar la dirección proporcionada en el navegador). El despliegue tiene un End Point para consultar los resultados del modelo para el Pronostico, el ahorro y la diferencia entre estos para emisiones de Co2, emisiones de ruido y ahorro para 12 meses desde el último dato procesado (2023-6). 
 
 ![noise](imagenes/9.png)
 
