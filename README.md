@@ -205,7 +205,7 @@ Cada una de estas tecnologías ha sido cuidadosamente seleccionada para abordar 
 
 ### En arquitectura de datos
 
-El proceso de orquestación de datos en la nube con Google Composer consiste en la creación de flujos de trabajo automatizados que permiten el procesamiento, transformación y almacenamiento de datos en la nube. En este caso, se utilizó Google Composer para crear DAGs (Directed Acyclic Graphs) que se ejecutan automáticamente y realizan las siguientes tareas:
+El proceso de orquestación de datos en la nube consiste en la creación de flujos de trabajo automatizados que permiten el procesamiento, transformación y almacenamiento de datos en la nube. En este caso, se utilizó Google Composer para crear DAGs (Directed Acyclic Graphs) que se ejecutan automáticamente y realizan las siguientes tareas:
 
 - Web Scraping
 La primera tarea consiste en realizar web Scraping de distintas fuentes para obtener datos en formato HTML. Para ello, se utilizan las herramientas de Python como Scrapy o Beautiful Soup. Los datos obtenidos se almacenan en archivos Parquet o CSV en Google Storage.
