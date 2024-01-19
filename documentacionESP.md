@@ -246,3 +246,33 @@ los DAGS y sus funciones asociadas que fueron usados para la carga y el ETL auto
 ![noise](imagenes\11.png)
 
 ### C.  En análisis de datos
+
+## Resumen Ejecutivo:
+
+En mi rol como Analista de Datos en el proyecto "NYC Taxis & Carbon Emission", desempeñé un papel crucial en la extracción, limpieza, análisis y presentación de datos para facilitar la toma de decisiones informadas. El enfoque del proyecto abarcó un extenso análisis de datos de Taxis Amarillos y Taxis Verdes , con especial atención a variables como la ubicación, las tarifas por zona , la contaminacion de ruido y por c02 y la infraestructura de estaciones eléctricas en Nueva York.
+
+## Extracción y Limpieza de Datos:
+
+La primera fase de mi responsabilidad consistió en la extracción y limpieza de datos relevantes. Esto implicó la recopilación de información detallada sobre los Taxis Amarillos y Taxis Verdes, abarcando diversos aspectos como las transacciones por zona, tarifas aplicadas y la ubicación geográfica de las estaciones eléctricas.
+
+## Análisis de Datos:
+
+Una vez obtenidos los datos, llevé a cabo un análisis exhaustivo que incluyó la creación de visualizaciones significativas para identificar patrones, tendencias y relaciones. El análisis se centró en variables clave como el monto de cobro por zona, la distribución geográfica de los taxis y la presencia de estaciones eléctricas en Nueva York.
+
+Power BI Dashboard:
+
+Para comunicar de manera efectiva los hallazgos, desarrollé un completo dashboard utilizando Power BI. Este dashboard abarcó varias páginas, cada una dedicada a un aspecto específico del análisis:
+
+Taxis Amarillos vs. Taxis Verdes (2022-2023): Presentación de estadísticas generales y comparativas entre ambos tipos de taxis.
+
+Tarifas y Ubicaciones por Zona: Visualización detallada de las tarifas aplicadas y la distribución geográfica de los taxis.
+
+Infraestructura de Estaciones Eléctricas en NY: Mapa interactivo que destaca la ubicación de estaciones eléctricas en Nueva York.
+
+Comparación de Eficiencia de Vehículos: Página dedicada a analizar la eficiencia de vehículos convencionales en comparación con vehículos eléctricos.
+
+Estudio de Contaminación por Ruido: Análisis de la contaminación acústica generada por Taxis Amarillos y Taxis Verdes.
+
+Contaminación por CO2 y Costo Promedio de Gasolina: Página que aborda la contaminación por dióxido de carbono y el promedio de costo por consumo de gasolina en Taxis Verdes y Amarillos.
+
+
