@@ -11,7 +11,7 @@ Contamos con un equipo interdisciplinario de 3 expertos que, muy a grandez rasgo
 
 Estos roles trabajan en conjunto con el objetivo de garantizar la solidez de los entregables para el cliente
 
-
+![data])(https://static.mercadonegro.pe/wp-content/uploads/2020/10/06223806/What_is_Data_Science.jpg)
 ## 2. Contexto del Proyecto
 La ciudad de Nueva York, conocida por su intensa actividad y densidad poblacional, presenta un escenario único para estudiar los efectos del transporte urbano en el medio ambiente. Los servicios de taxis y viajes compartidos, como Uber, han revolucionado el modo en que las personas se desplazan por la ciudad. Estos servicios no solo ofrecen conveniencia y accesibilidad sino que también generan valiosos datos en tiempo real, como ubicaciones de vehículos, duración de viajes, tarifas, y calificaciones de conductores. Estos datos son cruciales para identificar patrones de viaje, demanda de servicios y oportunidades de mejora en la eficiencia y calidad del servicio.
 
@@ -93,7 +93,7 @@ Cada KPI se calculará utilizando fórmulas específicas basadas en los datos re
 
 1. **Tasa de reducción en emisiones anuales de CO2 al cambiar un 20% la flotilla a vehiculos electricos:**
 
-   Cálculo: ((Emisiones de CO2 en el año base (pronosticado) - Emisiones de CO2 en el año actual) / Emisiones de CO2 en el año base) * 100
+   Cálculo: ((Emisiones de CO2 en el año base (historico) - Emisiones de CO2 en el año actual(pronosticado)) / Emisiones de CO2 en el año base) * 100
 
    Meta: Reducción del 10% en las emisiones de CO2 en comparación con el año base.
 
@@ -200,7 +200,7 @@ Cada una de estas tecnologías ha sido cuidadosamente seleccionada para abordar 
 
 ## 13. Resumen de logros obtenidos, soliciones finales y desarrollo de los entregables
 
-### En arquitectura de datso
+### En arquitectura de datos
 
 ### En Machile Learning
 
