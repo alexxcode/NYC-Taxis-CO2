@@ -249,15 +249,15 @@ los DAGS y sus funciones asociadas que fueron usados para la carga y el ETL auto
 
 ## Resumen :
 
-En mi rol como Analista de Datos en el proyecto "NYC Taxis & Carbon Emission", desempeñé un papel crucial en la extracción, limpieza, análisis y presentación de datos para facilitar la toma de decisiones informadas. El enfoque del proyecto abarcó un extenso análisis de datos de Taxis Amarillos y Taxis Verdes , con especial atención a variables como la ubicación, las tarifas por zona , la contaminacion de ruido y por c02 y la infraestructura de estaciones eléctricas en Nueva York.
+En nuestro como Analista de Datos en el proyecto "NYC Taxis & Carbon Emission", desempeñamos un papel crucial en la extracción, limpieza, análisis y presentación de datos para facilitar la toma de decisiones informadas. El enfoque del proyecto abarcó un extenso análisis de datos de Taxis Amarillos y Taxis Verdes , con especial atención a variables como la ubicación, las tarifas por zona , la contaminacion de ruido y por c02 y la infraestructura de estaciones eléctricas en Nueva York.
 
 ## Extracción y Limpieza de Datos:
 
-La primera fase de mi responsabilidad consistió en la extracción y limpieza de datos relevantes. Esto implicó la recopilación de información detallada sobre los Taxis Amarillos y Taxis Verdes, abarcando diversos aspectos como las transacciones por zona, tarifas aplicadas y la ubicación geográfica de las estaciones eléctricas.
+La primera fase de nuestra responsabilidad consistió en la extracción y limpieza de datos relevantes. Esto implicó la recopilación de información detallada sobre los Taxis Amarillos y Taxis Verdes, abarcando diversos aspectos como las transacciones por zona, tarifas aplicadas y la ubicación geográfica de las estaciones eléctricas.
 
 ## Análisis de Datos:
 
-Una vez obtenidos los datos, llevé a cabo un análisis exhaustivo que incluyó la creación de visualizaciones significativas para identificar patrones, tendencias y relaciones. El análisis se centró en variables clave como el monto de cobro por zona, la distribución geográfica de los taxis y la presencia de estaciones eléctricas en Nueva York.
+Una vez obtenidos los datos, llevamos a cabo un análisis exhaustivo que incluyó la creación de visualizaciones significativas para identificar patrones, tendencias y relaciones. El análisis se centró en variables clave como el monto de cobro por zona, la distribución geográfica de los taxis y la presencia de estaciones eléctricas en Nueva York.
 
 ## Power BI Dashboard:
 
