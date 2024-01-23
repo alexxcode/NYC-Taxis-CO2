@@ -224,21 +224,21 @@ Los datos almacenados en BigQuery se pueden visualizar con el servicio de visual
 Paso a paso:
 El proceso de orquestación de datos en la nube con Google Composer se puede dividir en los siguientes pasos:
 
-- **Creación de un entorno de Cloud Composer**
+- **Creación de un entorno de Cloud Composer:**
 En primer lugar, se debe crear un entorno de Cloud Composer. Un entorno de Cloud Composer es un espacio de trabajo aislado donde se pueden crear y ejecutar DAGs.
 
 ![entorno](imagenes/entorno.png)
 
 
 
-- **Creación, Configuración y Publicación de los DAGs.**
+- **Creación, Configuración y Publicación de los DAGs:**
 Una vez creado el entorno de Cloud Composer, se procede a crear los DAGs, se configuran para especificar las tareas a ejecutar, el orden de ejecución y las condiciones de ejecución. Finalmente se publican. para que puedan ejecutarse automáticamente.
 
 ![dags](imagenes/dags.png)
 
 
 
-- **Almacenamiento en Google Storage**
+- **Almacenamiento en Google Storage:**
 De forma automática, se almacena en un bucket de Google Storage todos los datasets sin transformar.
 
 ![storage](imagenes/googlestorage.png)
@@ -250,14 +250,14 @@ Las transformaciones se realizan con las funciones previamente diseñadas, que t
 
 
 
-- **Estructura de Tablas**
+- **Estructura de Tablas:**
 Los datos transformados se estructuran en forma de tablas y se almacenan en BigQuery.
 
 ![bigquery](imagenes/bigquery.png)
 
 
 
-- **Exportar tablas**
+- **Exportar tablas:**
 Estas tablas de BigQuery se exportan a una herramienta de visualización de datos (Power BI en este caso) para su posterior análisis
 
 ![bigquery](imagenes/topowerbi1.png)
