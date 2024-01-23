@@ -260,6 +260,9 @@ Los datos transformados se estructuran en forma de tablas y se almacenan en BigQ
 6. Exportar tablas
 Estas tablas de BigQuery se exportan a una herramienta de visualización de datos (Power BI en este caso) para su posterior análisis
 
+![bigquery](imagenes/topowerbi1.png)
+
+![bigquery](imagenes/topowerbi2.png)
 
 
 7. Airflow 
