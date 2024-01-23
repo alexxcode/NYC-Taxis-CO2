@@ -1,6 +1,6 @@
 # <h1 align="center">**`NYC Taxis & Carbon Emission`**</h1>
 * **`Eduardo Pérez Chavarría` _(Data Engineer, Data Analyst, Data Scientist)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-perez-chavarria/)
-* **`Alexis Rojas ` _(Data Engineer, Data Analyst)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+* **`Alexis Rojas ` _(Data Engineer, Data Analyst)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexis-rojas-90916921a/)
 
 # Descripción del Proyecto 
 
