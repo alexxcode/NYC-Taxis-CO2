@@ -224,40 +224,40 @@ Los datos almacenados en BigQuery se pueden visualizar con el servicio de visual
 Paso a paso:
 El proceso de orquestación de datos en la nube con Google Composer se puede dividir en los siguientes pasos:
 
-- 1.	Creación de un entorno de Cloud Composer
+- 1	Creación de un entorno de Cloud Composer
 En primer lugar, se debe crear un entorno de Cloud Composer. Un entorno de Cloud Composer es un espacio de trabajo aislado donde se pueden crear y ejecutar DAGs.
 
 ![entorno](imagenes/entorno.png)
 
 
 
-- 2.	Creación, Configuración y Publicación de los DAGs.
+- 2	Creación, Configuración y Publicación de los DAGs.
 Una vez creado el entorno de Cloud Composer, se procede a crear los DAGs, se configuran para especificar las tareas a ejecutar, el orden de ejecución y las condiciones de ejecución. Finalmente se publican. para que puedan ejecutarse automáticamente.
 
 ![dags](imagenes/dags.png)
 
 
 
-- 3.	Almacenamiento en Google Storage
+- 3	Almacenamiento en Google Storage
 De forma automática, se almacena en un bucket de Google Storage todos los datasets sin transformar.
 
 ![storage](imagenes/googlestorage.png)
 
 
 
-- 4.	Transformación 
+- 4	Transformación 
 Las transformaciones se realizan con las funciones previamente diseñadas, que también se agregan en la carpeta de DAGs, son parte del flujo de los datos. 
 
 
 
-- 5. Estructura de Tablas
+- 5 Estructura de Tablas
 Los datos transformados se estructuran en forma de tablas y se almacenan en BigQuery.
 
 ![bigquery](imagenes/bigquery.png)
 
 
 
-- 6. Exportar tablas
+- 6 Exportar tablas
 Estas tablas de BigQuery se exportan a una herramienta de visualización de datos (Power BI en este caso) para su posterior análisis
 
 ![bigquery](imagenes/topowerbi1.png)
@@ -265,7 +265,7 @@ Estas tablas de BigQuery se exportan a una herramienta de visualización de dato
 ![bigquery](imagenes/topowerbi2.png)
 
 
-- 7. Airflow 
+- 7 Airflow 
 Cada una de las tareas se ejecuta de forma automática y periódica según lo requerido.
 
 ![Airflow](imagenes/airflow.png)
