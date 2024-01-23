@@ -42,10 +42,10 @@ Nuestro objetivo principal es evaluar el movimiento de los taxis y servicios de 
 
 ## 6. Alcance (en detalle [aquí](especificaciones/alcance_detalle.md))
 
-### 6.1. Alcance a nivel de Datos: Enfoque en Taxis Amarillos y verdes.
-### 6.2. Alcance espacial: Foco en la Ciudad de Nueva York.**
-### 6.3. Alcance Temporal: Uso de Datos Hasta la Fecha Más Reciente y desde 2009 y Proyección de Tendencias Futuras
-### **Supuestos:**: Con el fin de ofrecer información sobre el cambio a vehiculos electricos, y ante la falta de información que permita identificar si un taxi es convencional o no, se toma como hecho que los taxis son todos de éste ultimo tipo. 
+- 6.1. Alcance a nivel de Datos: Enfoque en Taxis Amarillos y verdes.
+- 6.2. Alcance espacial: Foco en la Ciudad de Nueva York.**
+- 6.3. Alcance Temporal: Uso de Datos Hasta la Fecha Más Reciente y desde 2009 y Proyección de Tendencias Futuras
+- **Supuestos:**: Con el fin de ofrecer información sobre el cambio a vehiculos electricos, y ante la falta de información que permita identificar si un taxi es convencional o no, se toma como hecho que los taxis son todos de éste ultimo tipo. 
 
 ## 7.  ¿Qué objetivos tenemos con este proyecto y qué entregables daremos al cliente? 
 
