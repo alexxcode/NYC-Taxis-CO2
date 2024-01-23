@@ -35,16 +35,18 @@ Para que el cliente obtenga el conocimiento necesario, nosotros:
 
 - **Datos Disponibles**: Este trabajo se realiza con una amplia gama de fuentes de datos, incluyendo información de la NYC Taxi and Limousine Commission que facilita indagar sobre la naturaleza de los viajes de taxi de manera historica; datos sobre rendimiento, emisiones de CO2 y de ruido para vehiculos convencionales y eléctricos, datos sobre calidad del aire  y otros relevantes para el análisis.Las bases usadas son tanto estáticas como dinámicas (consultas a APIs y Web Scrapping)
 
-## 5. **Expectativas y Objetivos
+## 5. Expectativas y Objetivos
 
 * Objetivo principal
 Nuestro objetivo principal es evaluar el movimiento de los taxis y servicios de viajes compartidos en la ciudad de Nueva York y realizar predicciones para proporcionar a la empresa de transporte de pasajeros información clave sobre la relación entre estos medios de transporte y la calidad del aire, contaminación sonora, y otros factores relevantes, incluyendo alternativas más rentables a largo plazo. Esto permitirá a la empresa tomar decisiones más acordes con sus objetivos.
 
-## 6. Alcance (en detalle [aquí](especificaciones/alcance_detalle.md))
+## 6. Alcance 
+(en detalle [aquí](especificaciones/alcance_detalle.md))
 
 - 6.1. Alcance a nivel de Datos: Enfoque en Taxis Amarillos y verdes.
 - 6.2. Alcance espacial: Foco en la Ciudad de Nueva York.**
 - 6.3. Alcance Temporal: Uso de Datos Hasta la Fecha Más Reciente y desde 2009 y Proyección de Tendencias Futuras
+
 - **Supuestos:**: Con el fin de ofrecer información sobre el cambio a vehiculos electricos, y ante la falta de información que permita identificar si un taxi es convencional o no, se toma como hecho que los taxis son todos de éste ultimo tipo. 
 
 ## 7.  ¿Qué objetivos tenemos con este proyecto y qué entregables daremos al cliente? 
@@ -97,7 +99,7 @@ Cada KPI se calculará utilizando fórmulas específicas basadas en los datos re
 
    Meta: Reducción del 10% en el volumen de ruido
 
-## 10. Tecnologías utilizadsas
+## 10. Tecnologías utilizadas
 
 ![Python](https://img.shields.io/badge/Python-black?style=flat&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas)
