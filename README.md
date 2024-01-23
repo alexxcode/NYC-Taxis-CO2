@@ -129,7 +129,7 @@ Cada KPI se calculará utilizando fórmulas específicas basadas en los datos re
 
 Pueden verse en detalle, junto con el cronograma de trabajo [aquí](especificaciones/tecnologias_usadas_y_cronograma.md)
 
-## 13. Resumen de logros obtenidos, soliciones finales y desarrollo de los entregables
+## 11. Resumen de logros obtenidos, soliciones finales y desarrollo de los entregables
 
 ### En arquitectura de datos
 
