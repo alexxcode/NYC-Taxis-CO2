@@ -248,6 +248,8 @@ De forma automática, se almacena en un bucket de Google Storage todos los datas
 - **Transformación**
 Las transformaciones se realizan con las funciones previamente diseñadas, que también se agregan en la carpeta de DAGs, son parte del flujo de los datos. 
 
+![bigquery](imagenes/transformation.png)
+
 
 
 - **Estructura de Tablas:**
