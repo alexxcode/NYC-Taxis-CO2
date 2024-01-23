@@ -227,16 +227,34 @@ El proceso de orquestación de datos en la nube con Google Composer se puede div
 1.	Creación de un entorno de Cloud Composer
 En primer lugar, se debe crear un entorno de Cloud Composer. Un entorno de Cloud Composer es un espacio de trabajo aislado donde se pueden crear y ejecutar DAGs.
 
-2.	Creación de DAGs
-Una vez creado el entorno de Cloud Composer, se procede a crear los DAGs. Los DAGs son archivos de Python que definen el flujo de trabajo a ejecutar.
+![entorno](link)
 
-3.	Configuración de los DAGs
-Los DAGs deben configurarse para especificar las tareas a ejecutar, el orden de ejecución y las condiciones de ejecución.
+2.	Creación, Configuración y Publicación de los DAGs.
+Una vez creado el entorno de Cloud Composer, se procede a crear los DAGs, se configuran para especificar las tareas a ejecutar, el orden de ejecución y las condiciones de ejecución. Finalmente se publican. para que puedan ejecutarse automáticamente.
 
-4.	Publicación de los DAGs
-Una vez configurados los DAGs, se deben publicar para que puedan ejecutarse automáticamente.
+![dags](link)
 
-5. 
+3.	Almacenamiento en Google Storage
+De forma automática, se almacena en un bucket de Google Storage todos los datasets sin transformar.
+
+![storage](link)
+
+4.	Transformación 
+Las transformaciones se realizan con las funciones previamente diseñadas, que también se agregan en la carpeta de DAGs, son parte del flujo de los datos. 
+
+5. Estructura de Tablas
+Los datos transformados se estructuran en forma de tablas y se almacenan en BigQuery.
+
+![bigquery](link)
+
+6. Exportar tablas
+Estas tablas de BigQuery se exportan a una herramienta de visualización de datos (Power BI en este caso) para su posterior análisis
+
+7. Airflow 
+Cada una de las tareas se ejecuta de forma automática y periódica según lo requerido.
+
+![Airflow](link)
+
 La orquestación de datos en la nube con Google Composer es una solución eficaz para el procesamiento, transformación y almacenamiento de datos a gran escala. Este proceso permite automatizar las tareas de ingesta, transformación y análisis de datos, lo que mejora la eficiencia y la productividad. Los DAGS y sus funciones asociadas que fueron usados para la carga y el ETL automáticos pueden encontarse [aqui](Sprint-03/Data_flow_management_and_orchestration)
 
 ### En Machile Learning
