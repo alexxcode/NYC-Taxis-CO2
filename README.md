@@ -223,16 +223,20 @@ Los datos almacenados en BigQuery se pueden visualizar con el servicio de visual
 
 Paso a paso:
 El proceso de orquestación de datos en la nube con Google Composer se puede dividir en los siguientes pasos:
+
 1.	Creación de un entorno de Cloud Composer
 En primer lugar, se debe crear un entorno de Cloud Composer. Un entorno de Cloud Composer es un espacio de trabajo aislado donde se pueden crear y ejecutar DAGs.
+
 2.	Creación de DAGs
 Una vez creado el entorno de Cloud Composer, se procede a crear los DAGs. Los DAGs son archivos de Python que definen el flujo de trabajo a ejecutar.
+
 3.	Configuración de los DAGs
 Los DAGs deben configurarse para especificar las tareas a ejecutar, el orden de ejecución y las condiciones de ejecución.
+
 4.	Publicación de los DAGs
 Una vez configurados los DAGs, se deben publicar para que puedan ejecutarse automáticamente.
 
-
+5. 
 La orquestación de datos en la nube con Google Composer es una solución eficaz para el procesamiento, transformación y almacenamiento de datos a gran escala. Este proceso permite automatizar las tareas de ingesta, transformación y análisis de datos, lo que mejora la eficiencia y la productividad. Los DAGS y sus funciones asociadas que fueron usados para la carga y el ETL automáticos pueden encontarse [aqui](Sprint-03/Data_flow_management_and_orchestration)
 
 ### En Machile Learning
