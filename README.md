@@ -266,7 +266,8 @@ Para comunicar de manera efectiva los hallazgos, desarrollamos un  dashboard uti
 
 Taxis Amarillos vs. Taxis Verdes (2022-2023): Presentación de estadísticas generales y comparativas entre ambos tipos de taxis.
 
-![yellow](imagenes/taxi_yellow.png)
+![yellow](imagenes/taxi_yelow.png)
+
 
 ![green](imagenes/taxi_green.png)
 
