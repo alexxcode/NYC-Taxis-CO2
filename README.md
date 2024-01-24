@@ -266,12 +266,20 @@ Para comunicar de manera efectiva los hallazgos, desarrollamos un  dashboard uti
 
 Taxis Amarillos vs. Taxis Verdes (2022-2023): Presentación de estadísticas generales y comparativas entre ambos tipos de taxis.
 
-Tarifas y Ubicaciones por Zona: Visualización detallada de las tarifas aplicadas y la distribución geográfica de los taxis.
+![yellow](imagenes/taxi_yellow.png)
 
+![green](imagenes/taxi_green.png)
+
+Tarifas y Ubicaciones por Zona: Visualización detallada de las tarifas aplicadas y la distribución geográfica de los taxis.
 Infraestructura de Estaciones Eléctricas en NY: Mapa interactivo que destaca la ubicación de estaciones eléctricas en Nueva York.
+
+![zona](imagenes/zona.png)
 
 Comparación de Eficiencia de Vehículos: Página dedicada a analizar la eficiencia de vehículos convencionales en comparación con vehículos eléctricos.
 
-Estudio de Contaminación por Ruido: Análisis de la contaminación acústica generada por Taxis Amarillos y Taxis Verdes.
+![vs](imagenes/vehiculos_fuel.png)
 
+Estudio de Contaminación por Ruido: Análisis de la contaminación acústica generada por Taxis Amarillos y Taxis Verdes.
 Contaminación por CO2 y Costo Promedio de Gasolina: Página que aborda la contaminación por dióxido de carbono y el promedio de costo por consumo de gasolina en Taxis Verdes y Amarillos.
+
+![contaminacion](imagenes/contaminacion.png)
