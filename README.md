@@ -262,6 +262,8 @@ Una vez obtenidos los datos, llevamos a cabo un análisis exhaustivo que incluy�
 
 ## Power BI Dashboard:
 
+![dashboard]([imagenes/11.png](https://drive.google.com/file/d/1YTjaLOI16Zkg6-Et5BGCju80QSL_gC7A/view?usp=sharing))
+
 Para comunicar de manera efectiva los hallazgos, desarrollamos un  dashboard utilizando Power BI. Este dashboard abarcó varias páginas, cada una dedicada a un aspecto específico del análisis:
 
 Taxis Amarillos vs. Taxis Verdes (2022-2023): Presentación de estadísticas generales y comparativas entre ambos tipos de taxis.
